@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-primary{
-    @apply bg-slate-500
-}
