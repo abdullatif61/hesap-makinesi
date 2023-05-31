@@ -4,7 +4,6 @@ import "./App.css";
 function App() {
   const [sonuc, setSonuc] = useState(0);
   const [sayi1, setSayi] = useState(0);
-  const [islem, setIslem] = useState("");
   const [Sayi2, setSayi2] = useState(0);
   const [esittir, setEsittir] = useState("");
 
