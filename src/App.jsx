@@ -87,14 +87,15 @@ function App() {
 
   return (
     <div className="  h-screen sm:w-96 w-screen flex mx-auto sm:items-center ">
-      <nav className=" bg-orange-400 w-full px-4 pb-4  h-5/6  rounded-lg">
+      <nav className=" bg-orange-400 w-full px-4 pb-4 sm:h-5/6 h-full rounded-lg  ">
         <div className=" px-4 py-4 my-12 w-full ">
           <h1 className="text-right text-3xl my-4">{sonuc} </h1>
 
           <h1 className=" text-right text-2xl"> {Sayi2 ? Sayi2 : <br /> } </h1>
           <h1 className=" text-right text-2xl"> {sayi1} </h1>
         </div>
-        <div className="grid grid-cols-4">
+        <div className="mt-40">
+        <div className=" grid grid-cols-4">
           {/* butonlar */}
           <button onClick={()=>sayiyazma(1)} className="bg-blue-500   hover:bg-blue-700 text-white font-bold btn px-4 rounded">
             1
@@ -159,6 +160,9 @@ function App() {
             Delete
           </button>
         </div>
+
+        </div>
+        
       </nav>
     </div>
   );
