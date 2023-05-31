@@ -94,7 +94,7 @@ function App() {
           <h1 className=" text-right text-2xl"> {Sayi2 ? Sayi2 : <br /> } </h1>
           <h1 className=" text-right text-2xl"> {sayi1} </h1>
         </div>
-        <div className="mt-40">
+        <div className="sm:mt-10 mt-40">
         <div className=" grid grid-cols-4">
           {/* butonlar */}
           <button onClick={()=>sayiyazma(1)} className="bg-blue-500   hover:bg-blue-700 text-white font-bold btn px-4 rounded">
